@@ -1,10 +1,9 @@
-package com.microservice.config;
+package com.microservice.courses;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.config.server.EnableConfigServer;
 
-@EnableConfigServer
+@EnableDiscoveryClient
 @SpringBootApplication
 public class Application {
 

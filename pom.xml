@@ -21,6 +21,8 @@
     <module>microservice.gateway</module>
     <module>microservice.eureka</module>
     <module>microservice.config</module>
+    <module>microservice.students</module>
+    <module>microservice.courses</module>
   </modules>
 
   <properties>
