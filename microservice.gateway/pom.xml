@@ -6,11 +6,16 @@
 		<groupId>com.microservice</groupId>
 		<artifactId>microserviceDemo</artifactId>
 		<version>1.0-SNAPSHOT</version>
+		<relativePath>microserviceDemo</relativePath>
 	</parent>
+
 	<groupId>com.microservice.gateway</groupId>
 	<artifactId>microservice.gateway</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
 	<name>microservice.gateway</name>
+	<packaging>jar</packaging>
+
 	<description>Spring Boot gateway</description>
 	<url/>
 	<licenses>

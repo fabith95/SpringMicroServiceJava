@@ -7,10 +7,14 @@
 		<artifactId>microserviceDemo</artifactId>
 		<version>1.0-SNAPSHOT</version>
 	</parent>
+
 	<groupId>com.microservice.students</groupId>
 	<artifactId>microservice.students</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+
 	<name>microservice.students</name>
+	<packaging>jar</packaging>
+
 	<description>Spring Boot students</description>
 	<url/>
 	<licenses>
