@@ -1,5 +1,11 @@
 # **MICROSERVICES**
 # _Structure Spring Project_
+
+mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=NOMBRE_APP -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.5 -DinteractiveMode=false
+
+**Pom PPal:**
+- properties -> parent -> versionSNAPSHOT -> dependencies -> build
+
 ![alt text](Resources\image.png)
 
 # 1.Dependencies GATEWAY
